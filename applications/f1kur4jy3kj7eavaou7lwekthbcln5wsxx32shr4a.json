@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1kur4jy3kj7eavaou7lwekthbcln5wsxx32shr4a",
+  "Issue Number": "4",
+  "Client": {
+    "Name": "Shouhong Medical Holdings Group Co., Ltd",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://qdshouhong.com/",
+    "Social Media": "info@qdshouhong.com",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Shouhong Medical Holdings Group Co., Ltd. was founded in 2011, headquartered in Qingdao, Shandong, with stock code 872872. For over a decade, the company has been committed to adhering to a professional development strategy centered on one-stop services for medical trade, bidding agency, and supply chain management, achieving rapid and large-scale business growth.\nThe company adheres to the service policy of \"one-stop medical trade, safe search for Shouhong\", establishes and effectively operates a complete set of safety service management system, and forms a service chain of hospital safety medical trade one-stop, agent safety medical trade one-stop, and manufacturer safety medical trade one-stop business system guided by Shouhong Medical Trade Safety Center and linked by Shouhong Real time Query Service System.\nAs a leader in the medical device market in Shandong Province, Shouhong Medical Group has been cooperating with Fortune 500 companies for many years to provide comprehensive solutions for hospitals, manufacturers, and agents in international trade, bidding agency, medical equipment sales, medical investment, and circulation management services. With the mission of promoting compliance and safety in medical supply chain management, Shouhong Medical Group aims to build a multi-dimensional, open, innovative, and win-win security service ecosystem.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Collected publicly available video learning materials from our company, subsidiaries and some partner companies.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "https://github.com/tech-greedy/singularity/blob/main/getting-started.md\n\nUse this open source tool for data packaging and deal delivery",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://pan.baidu.com/s/1PYbNTBTLq2VpEC09b9hLLQ?pwd=psug",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03377773 Vietnam\nf03377778 Vietnam\nf03373733 Guangdong\nf03373337 Guangdong\nf03373373 Guangdong\nf03081952 CALIFORNIA\nf03577777  Singapore\nf03577778  Singapore\nf03567898  Shenzhen\nf03567899  Shenzhen",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-09 07:52:05.576699423 UTC",
+    "Validated By": "filecoindaily",
+    "Active": true,
+    "Updated At": "2025-08-09 07:52:05.576695925 UTC",
+    "Active Request ID": "630d3ed2-4f9e-4a82-9eb3-54588c4a44dc",
+    "On Chain Address": "f1kur4jy3kj7eavaou7lwekthbcln5wsxx32shr4a",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "630d3ed2-4f9e-4a82-9eb3-54588c4a44dc",
+      "Request Type": "First",
+      "Created At": "2025-08-09 07:50:08.330457264 UTC",
+      "Updated At": "2025-08-09 07:50:08.330458193 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "filecoindaily",
+          "Signing Address": "f1azekglh2sc566jghbdi3c2j2ymr3biehhtrtpbi",
+          "Created At": "2025-08-09 07:52:02.301000000 UTC",
+          "Message CID": "bafy2bzaced2rlhhh5q3zekozdrv65s7w6mamsdkvkj523nj4lnaeep2d6afdm"
+        }
+      ]
+    }
+  ]
+}
