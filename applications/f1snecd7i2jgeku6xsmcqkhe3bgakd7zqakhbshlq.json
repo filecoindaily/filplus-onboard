@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1snecd7i2jgeku6xsmcqkhe3bgakd7zqakhbshlq",
+  "Issue Number": "6",
+  "Client": {
+    "Name": "LOFAR (LOw Frequency ARray)",
+    "Region": "United Kingdom",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://repository.surfsara.nl/collection/lotss-dr2#relationships",
+    "Social Media": "ASTRON",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "LOFAR (LOw Frequency ARray) is currently the largest radio telescope operating at the lowest frequencies that can be observed from Earth. Unlike single-dish telescopes, LOFAR is a multipurpose sensor network, with an innovative computer and network infrastructure that can handle extremely large data volumes.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "In this data release from the ongoing LOw-Frequency ARray (LOFAR) Two-metre Sky Survey (LoTSS) we present 120-168 MHz images covering 27% of the northern sky. Our coverage is split into two regions centred at approximately 12h45m +44◦30′ and 1h00m +28◦ 00′ and spanning 4178 and 1457 square degrees respectively. The images were derived from 3,451 hrs (7.6 PB) of LOFAR High Band Antenna data which were corrected for the direction-independent instrumental properties as well as direction-dependent ionospheric distortions during extensive, but fully automated, data processing. A catalogue of 4,396,228 radio sources is derived from our total intensity (Stokes I) maps, where the majority of these have never been detected at radio wavelengths before. At 6′′ resolution, our full bandwidth Stokes I continuum maps with a central frequency of 144 MHz have: a median rms sensitivity of 83 μ Jy/beam; a flux density scale accuracy of approximately 10%; an astrometric accuracy of 0.2′′; and we estimate the point-source completeness to be 90% at a peak brightness of 0.8 mJy/beam. By creating three 16 MHz bandwidth images across the band we are able to measure the in-band spectral index of many sources, albeit with an error on the derived spectral index of > ±0.2 which is a consequence of our flux-density scale accuracy and small fractional bandwidth. Our circular polarisation (Stokes V) 20′′ resolution 120-168 MHz continuum images have a median rms sensitivity of 95 μ Jy/beam, and we estimate a Stokes I to Stokes V leakage of 0.056%. Our linear polarisation (Stokes Q and Stokes U) image cubes consist of 480 97.6 kHz wide planes and have a median rms sensitivity per plane of 10.8mJy/beam at 4′ and 2.2mJy/beam at 20′′; we estimate the Stokes I to Stokes Q/U leakage to be approximately 0.2%. Here we characterise and publicly release our Stokes I, Q, U and V images in addition to the calibrated uv-data to facilitate the thorough scientific exploitation of this unique dataset.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We downloaded the data from https://repository.surfsara.nl/collection/lotss-dr2#collection, classified the content, and then used the built-in tools officially provided by Lotus (Filecoin's reference implementation) to split, compress, and package the data, and finally distributed it to SPs.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://repository.surfsara.nl/collection/lotss-dr2#collection 166.23 TB\ns3://lofar-elais-n1/ 63.9 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03315260 Germany\nf03368008 Vietnam\nf03603117 United States\nf03619143 HongKong\nf03619150 Singapore",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1.5 PiB",
+    "Single Size Dataset": "250TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "500 TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-11 10:15:36.048811882 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1snecd7i2jgeku6xsmcqkhe3bgakd7zqakhbshlq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
