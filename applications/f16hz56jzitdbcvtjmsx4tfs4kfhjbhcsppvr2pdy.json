@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f16hz56jzitdbcvtjmsx4tfs4kfhjbhcsppvr2pdy",
+  "Issue Number": "9",
+  "Client": {
+    "Name": "Meteorological Environmental Earth Observation",
+    "Region": "United Kingdom",
+    "Industry": "IT & Technology Services",
+    "Website": "https://registry.opendata.aws/sentinel-3/",
+    "Social Media": "MEEO",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "This data set consists of observations from the Sentinel-3 satellite of the European Commission’s Copernicus Earth Observation Programme. Sentinel-3 is a polar orbiting satellite that completes 14 orbits of the Earth a day. It carries the Ocean and Land Colour Instrument (OLCI) for medium resolution marine and terrestrial optical measurements, the Sea and Land Surface Temperature Radiometer (SLSTR), the SAR Radar Altimeter (SRAL), the MicroWave Radiometer (MWR) and the Precise Orbit Determination (POD) instruments. The satellite was launched in 2016 and entered routine operational phase in 2017. Data is available from July 2017 onwards.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "This data set consists of observations from the Sentinel-3 satellite of the European Commission’s Copernicus Earth Observation Programme. Sentinel-3 is a polar orbiting satellite that completes 14 orbits of the Earth a day. It carries the Ocean and Land Colour Instrument (OLCI) for medium resolution marine and terrestrial optical measurements, the Sea and Land Surface Temperature Radiometer (SLSTR), the SAR Radar Altimeter (SRAL), the MicroWave Radiometer (MWR) and the Precise Orbit Determination (POD) instruments. The satellite was launched in 2016 and entered routine operational phase in 2017. Data is available from July 2017 onwards.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use aws-cli to download data from s3://meeo-s3/NRT/, and then use script tools to cut the files into files smaller than 32GiB and package them into car files. We distribute them to SPs via HTTP or mailing hard disks.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://meeo-s3/NRT/S3A: 441.5387 TiB\naws s3 ls --no-sign-request s3://meeo-s3/NRT/S3B: 443.1725 TiB\n\nThe s3://meeo-s3/ dataset contains three types of data, totaling 2 PiB. This time, we're only requesting storage for NRT format data; I'll request other types of data next time.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "North America, Greater China, Asia other than Greater China, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany\nf03315260 Germany\nf03367915 United States\nf03542777 Vietnam\nf03607310 Brazil\nf03559187 United States\nf03100006 HongKong\nf03100007 HongKong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-12 08:24:08.066141888 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f16hz56jzitdbcvtjmsx4tfs4kfhjbhcsppvr2pdy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
