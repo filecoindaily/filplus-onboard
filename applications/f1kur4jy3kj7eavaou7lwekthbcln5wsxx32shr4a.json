@@ -35,11 +35,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-14 07:14:42.454954819 UTC",
+    "State": "Granted",
+    "Validated At": "2025-08-14 07:21:10.404946909 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
-    "Updated At": "2025-08-14 07:14:42.454959719 UTC",
+    "Updated At": "2025-08-14 07:21:10.404942285 UTC",
     "Active Request ID": "e12620e5-1d0a-415b-9af8-5cb6a3ab217b",
     "On Chain Address": "f1kur4jy3kj7eavaou7lwekthbcln5wsxx32shr4a",
     "Multisig Address": "false",
@@ -83,9 +83,16 @@
       "Request Type": "Refill",
       "Created At": "2025-08-14 07:14:42.454969139 UTC",
       "Updated At": "2025-08-14 07:14:42.454969767 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1125899906842624B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "filecoindaily",
+          "Signing Address": "f1azekglh2sc566jghbdi3c2j2ymr3biehhtrtpbi",
+          "Created At": "2025-08-14 07:21:06.096000000 UTC",
+          "Message CID": "bafy2bzacede6cztuukyfem2m6eb7jbfkflvgidyvp3mavzvk5nk6y3d5nlewk"
+        }
+      ]
     }
   ]
 }
