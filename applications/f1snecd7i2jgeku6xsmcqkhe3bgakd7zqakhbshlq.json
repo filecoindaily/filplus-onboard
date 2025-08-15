@@ -35,12 +35,12 @@
     "Weekly Allocation": "500 TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2025-08-13 07:27:10.449073815 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-15 03:34:35.168571311 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
-    "Updated At": "2025-08-13 07:27:10.449069939 UTC",
-    "Active Request ID": "e3803e1e-f0e7-4b44-b8e6-c6b7be4d9a41",
+    "Updated At": "2025-08-15 03:34:35.168574499 UTC",
+    "Active Request ID": "12b7ffe8-1331-476b-bd9d-f9cf552ac35f",
     "On Chain Address": "f1snecd7i2jgeku6xsmcqkhe3bgakd7zqakhbshlq",
     "Multisig Address": "false",
     "edited": false
@@ -77,6 +77,15 @@
           "Message CID": "bafy2bzacebhzkn7aoqr6m25wlwvgqxwh2gfg2p43ibm6x67rjhpbvcnmi7dho"
         }
       ]
+    },
+    {
+      "ID": "12b7ffe8-1331-476b-bd9d-f9cf552ac35f",
+      "Request Type": "Refill",
+      "Created At": "2025-08-15 03:34:35.168579069 UTC",
+      "Updated At": "2025-08-15 03:34:35.168579875 UTC",
+      "Active": true,
+      "Allocation Amount": "562949953421312B",
+      "Signers": []
     }
   ]
 }
