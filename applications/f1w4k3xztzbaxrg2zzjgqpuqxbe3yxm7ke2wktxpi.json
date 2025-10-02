@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1w4k3xztzbaxrg2zzjgqpuqxbe3yxm7ke2wktxpi",
   "Issue Number": "19",
+  "Client Contract Address": "f410fayxonlr7f2ezgfx4ggjsewsd2ebytgn7p4c3mjq",
   "Client": {
     "Name": "Co-Produced Climate Data",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-10-02 17:57:51.372916338 UTC",
+    "Validated By": "filecoindaily",
     "Active": true,
-    "Updated At": "2025-09-02 13:08:21.821847465 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-10-02 17:57:51.372921653 UTC",
+    "Active Request ID": "de732998-da85-46f7-80e2-e748fb632829",
     "On Chain Address": "f1w4k3xztzbaxrg2zzjgqpuqxbe3yxm7ke2wktxpi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "de732998-da85-46f7-80e2-e748fb632829",
+      "Request Type": "First",
+      "Created At": "2025-10-02 17:57:51.372923754 UTC",
+      "Updated At": "2025-10-02 17:57:51.372924684 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
