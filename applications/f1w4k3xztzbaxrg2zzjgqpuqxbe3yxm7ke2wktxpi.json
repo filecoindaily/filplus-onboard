@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-10-02 17:57:51.372916338 UTC",
+    "Validated At": "2025-10-03 05:14:10.784325563 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
-    "Updated At": "2025-10-02 17:57:51.372921653 UTC",
+    "Updated At": "2025-10-03 05:14:10.784324443 UTC",
     "Active Request ID": "de732998-da85-46f7-80e2-e748fb632829",
     "On Chain Address": "f1w4k3xztzbaxrg2zzjgqpuqxbe3yxm7ke2wktxpi",
     "Multisig Address": "false",
@@ -55,6 +55,44 @@
       "Active": true,
       "Allocation Amount": "281474976710656 B",
       "Signers": []
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "52dadf45-cbd7-4e14-b10c-6fa66dfb23fd",
+      "Created At": "2025-10-03 05:14:10.784311523 UTC",
+      "Updated At": "2025-10-03 05:14:10.784316322 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3637821,
+        3637813,
+        3649204,
+        3649212,
+        3649217,
+        3649227,
+        3641984,
+        3641964
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "filecoindaily",
+          "Signing Address": "f1azekglh2sc566jghbdi3c2j2ymr3biehhtrtpbi",
+          "Set Max Deviation CID": "bafy2bzacebiwpxke7axf33n5lv4qcdqiomubpp37hnfgxojbuy5hrx6ouomlg",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceaah3wgqbdew4b6ziiup2ng3dv5suw6sauo2ffrhv2zrfkqzc4kbq": [
+              "3637821",
+              "3637813",
+              "3649204",
+              "3649212",
+              "3649217",
+              "3649227",
+              "3641984",
+              "3641964"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
