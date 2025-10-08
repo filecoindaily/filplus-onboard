@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-10-08 15:56:29.981305423 UTC",
+    "State": "Granted",
+    "Validated At": "2025-10-08 16:00:41.594480435 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
-    "Updated At": "2025-10-08 15:56:29.981311640 UTC",
+    "Updated At": "2025-10-08 16:00:41.594476155 UTC",
     "Active Request ID": "f28cee30-4d11-4f2d-801a-a1907b2e5d45",
     "On Chain Address": "f1w4k3xztzbaxrg2zzjgqpuqxbe3yxm7ke2wktxpi",
     "Multisig Address": "false",
@@ -88,9 +88,18 @@
       "Request Type": "Refill",
       "Created At": "2025-10-08 15:56:29.981321374 UTC",
       "Updated At": "2025-10-08 15:56:29.981323209 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1125899906842624B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "1125899906842624B",
+      "Signers": [
+        {
+          "Github Username": "filecoindaily",
+          "Signing Address": "f1azekglh2sc566jghbdi3c2j2ymr3biehhtrtpbi",
+          "Created At": "2025-10-08 16:00:38.276000000 UTC",
+          "Message CID": "bafy2bzacedgvs5cuucostqdxclcel3rsmegkmaheykpjtmensfo6vn7dekpj4",
+          "Increase allowance CID": "bafy2bzacecdcbuioi3bhhbgdyi2iar6kycxusl2whcuzuiwf6lt2x6gxeuxw4"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
