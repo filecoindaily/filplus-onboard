@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-10-11 07:00:47.083886735 UTC",
+    "Validated At": "2025-10-24 09:23:46.513872 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
-    "Updated At": "2025-10-11 07:00:47.083883244 UTC",
-    "Active Request ID": "f9c7e807-e57e-4cf5-a034-e2624ae739c7",
+    "Updated At": "2025-10-24 09:23:46.513868763 UTC",
+    "Active Request ID": "3c9b4603-f4a5-4bd7-ac12-35b8a5b2b045",
     "On Chain Address": "f1w4k3xztzbaxrg2zzjgqpuqxbe3yxm7ke2wktxpi",
     "Multisig Address": "false",
     "edited": false
@@ -118,6 +118,24 @@
           "Increase allowance CID": "bafy2bzacebrwm5ovjywm2b4hx7a3z22g2ww5v676czeqpxua7awtnks5zkbg6"
         }
       ]
+    },
+    {
+      "ID": "3c9b4603-f4a5-4bd7-ac12-35b8a5b2b045",
+      "Request Type": "Refill",
+      "Created At": "2025-10-24 09:18:22.416157685 UTC",
+      "Updated At": "2025-10-24 09:18:22.416158410 UTC",
+      "Active": false,
+      "Allocation Amount": "1407374883553280B",
+      "Amount of Datacap Sent to Contract": "1407374883553280B",
+      "Signers": [
+        {
+          "Github Username": "filecoindaily",
+          "Signing Address": "f1azekglh2sc566jghbdi3c2j2ymr3biehhtrtpbi",
+          "Created At": "2025-10-24 09:23:44.179000000 UTC",
+          "Message CID": "bafy2bzacecbhpu2wnepvp37jtpopguni5fisohbfqbzv24zjoly2ji5mh3wha",
+          "Increase allowance CID": "bafy2bzaced4fjzt5lbvr7vhzru4vjpbzioopxvs6ciqg5ghjwbz3nyikuw7y2"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -150,6 +168,32 @@
               "3649212",
               "3649217",
               "3649227",
+              "3641984",
+              "3641964"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "8a98a817-723f-4bf9-829f-07994afcddad",
+      "Created At": "2025-10-24 09:20:35.837895596 UTC",
+      "Updated At": "2025-10-24 09:20:35.837901832 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3649204,
+        3649212,
+        3649217,
+        3649227
+      ],
+      "Signers": [
+        {
+          "Github Username": "filecoindaily",
+          "Signing Address": "f1azekglh2sc566jghbdi3c2j2ymr3biehhtrtpbi",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzaceakilweu63sht5cfeqz4636d3h6ysuf4gzm2cryacpd76bxnvh7sq": [
+              "3637821",
+              "3637813",
               "3641984",
               "3641964"
             ]
