@@ -36,12 +36,12 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2025-10-24 09:23:46.513872 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2025-10-26 11:02:30.166131935 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
-    "Updated At": "2025-10-24 09:23:46.513868763 UTC",
-    "Active Request ID": "3c9b4603-f4a5-4bd7-ac12-35b8a5b2b045",
+    "Updated At": "2025-10-26 11:02:30.166134847 UTC",
+    "Active Request ID": "4bcf9be6-7c72-4401-aeca-268d54f6fe60",
     "On Chain Address": "f1w4k3xztzbaxrg2zzjgqpuqxbe3yxm7ke2wktxpi",
     "Multisig Address": "false",
     "edited": false
@@ -136,6 +136,15 @@
           "Increase allowance CID": "bafy2bzaced4fjzt5lbvr7vhzru4vjpbzioopxvs6ciqg5ghjwbz3nyikuw7y2"
         }
       ]
+    },
+    {
+      "ID": "4bcf9be6-7c72-4401-aeca-268d54f6fe60",
+      "Request Type": "Refill",
+      "Created At": "2025-10-26 11:02:30.166143198 UTC",
+      "Updated At": "2025-10-26 11:02:30.166143958 UTC",
+      "Active": true,
+      "Allocation Amount": "1970324836974592B",
+      "Signers": []
     }
   ],
   "Storage Providers Change Requests": [
