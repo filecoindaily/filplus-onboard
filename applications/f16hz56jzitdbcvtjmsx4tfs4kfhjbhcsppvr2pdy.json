@@ -35,7 +35,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-10-26 17:19:42.436968320 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "aae13181-affc-47db-bb9f-da49600f5ba5",
     "On Chain Address": "f16hz56jzitdbcvtjmsx4tfs4kfhjbhcsppvr2pdy",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
