@@ -46,6 +46,8 @@ Note: if first time applicants apply for multiple applications at the same time,
 
 The allocation schedule for trusted users is:                                     
 - 1st allocation         5%
-- 2nd allocation        15%
-- 3rd allocation        30%
-- 4th allocation        50%
+- 2nd allocation        10%
+- 3rd allocation        15%
+- 4th allocation        20%
+- 5th allocation        25%
+- 6th allocation        25%
