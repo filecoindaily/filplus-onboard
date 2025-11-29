@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-11-29 03:34:43.043191068 UTC",
+    "Validated At": "2025-11-29 03:37:08.257836630 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
-    "Updated At": "2025-11-29 03:34:43.043194264 UTC",
+    "Updated At": "2025-11-29 03:37:08.257835761 UTC",
     "Active Request ID": "e4035ef6-6332-46fe-b45e-b13a49a40772",
     "On Chain Address": "f17iihrfclnzxayhjhnxtoe7nrqo7agt3q6iff4za",
     "Multisig Address": "false",
@@ -165,6 +165,35 @@
               "3175168",
               "3373733",
               "3373337"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "da9ceed3-02b3-44f1-ac1d-9252eb8f73d4",
+      "Created At": "2025-11-29 03:37:08.257818855 UTC",
+      "Updated At": "2025-11-29 03:37:08.257824528 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3559995,
+        3559994,
+        3559993,
+        3559992,
+        3559991,
+        3573579,
+        3593579,
+        3499888
+      ],
+      "Signers": [
+        {
+          "Github Username": "filecoindaily",
+          "Signing Address": "f1azekglh2sc566jghbdi3c2j2ymr3biehhtrtpbi",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedf2s64yfhga5epg6igr24e2633xcck3ayqpzfyxfm4dxrnjjevsy": [
+              "3573579",
+              " 3593579",
+              "3499888"
             ]
           }
         }
