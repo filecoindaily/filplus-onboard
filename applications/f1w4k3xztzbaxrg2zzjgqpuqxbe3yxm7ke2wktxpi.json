@@ -36,7 +36,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2026-01-06 09:18:08.209645534 UTC",
     "Validated By": "filecoindaily",
     "Active": true,
